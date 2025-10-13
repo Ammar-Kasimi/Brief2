@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background:linear-gradient(45deg,#0f3249,#660ead);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.centered{
+    align-items: center;
+    
+}
+.center{
+    
+    justify-content: center;
+}
+.grad1{
+    background: linear-gradient(white,#1bfefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ h3{
+    color: rgb(255, 255, 255);
+} 
+#domin {
+    align-items: center;
+}
+.connection{
+    display: flex;
+    background: linear-gradient(45deg,#00f8fe,#0473b9);
+    border: ridge;
+    border-radius: 10px;
+    padding: 9px;
+}
+header{
+    display: flex;
+    background-color: #0a0e27;
+    /* flex-wrap: wrap;
+    width: auto; */
+    margin: 0px;
+    padding: 0px;
+    gap:100px;
+}
+ h4{
+    display: flex;
+    color: white;
+    
+    
+    
+} 
+.flex{
+    display: flex;
+     flex-wrap: wrap;
+}
