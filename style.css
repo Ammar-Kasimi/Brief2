@@ -5,13 +5,19 @@ body{
     background-attachment: fixed;
     
 }
+.white{
+    color: white;
+}
 .centered{
     align-items: center;
-    
+    display: flex;
 }
 .center{
-    
+    display: flex;
     justify-content: center;
+    text-align: center;
+    
+   
 }
 .grad1{
     background: linear-gradient(white,#1bfefe);
@@ -19,18 +25,16 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
- h3{
-    color: rgb(255, 255, 255);
-} 
-#domin {
-    align-items: center;
-}
+
+
+
 .connection{
     display: flex;
     background: linear-gradient(45deg,#00f8fe,#0473b9);
     border: ridge;
     border-radius: 10px;
     padding: 9px;
+    
 }
 header{
     display: flex;
@@ -41,13 +45,11 @@ header{
     padding: 0px;
     gap:100px;
 }
- h4{
-    display: flex;
-    color: white;
+
     
     
     
-} 
+
 .flex{
     display: flex;
      flex-wrap: wrap;
