@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recrutement</title>
+    <title>Acceuil</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-</head>
+
+
 
 <body>
-    <header>
+    <header class="spaceDown">
         <h3 class="centered white" style="margin-left: 30px;">TeamUp<span style="color: #00d8d8;">.gg</span> </h3>
-         <a href="index.html" >
+        <a href="index.html">
             <h4 class="centered white">Acceuil</h4>
         </a>
-        <a href="marche.html" >
-        <h4 class="centered white">Comment ça marche</h4>
+        <a href="marche.html">
+            <h4 class="centered white">Comment ça marche</h4>
         </a>
-        <a href="Joueurs.html" >
+        <a href="Joueurs.html">
             <h4 class="centered white">Joueurs</h4>
         </a>
-        <a href="anonce.html" >
+        <a href="anonce.html">
             <h4 class="centered white">Annonce</h4>
         </a>
-        <a href="#" >
+        <a href="#">
             <h4 class="centered white">Comunauté</h4>
         </a>
         <a
@@ -36,62 +37,46 @@
         </a>
 
     </header>
-    <h1 class=" white fontsize center">Recrutement des Joueurs</h1>
 
-    <div class="flexs spaceDown center">
+    <h2 class="center white fontsize "> Comment ça marche?</h2>
+    </div>
+    <div class="flexs spaceDown2">
         <div class="line "></div>
     </div>
-    <label for="equipe" class="center down">Nom de votre équipe</label>
-    <div class="flex2 center">
-        <input type="text" id="equipe" class="input2" name="equipe" placeholder="Team Name">
-    </div>
-    <label for="equipe" class="center down">Le Jeu</label>
-    <div class="flex2 center">
-        <input type="text" list="games" id="equipe" class="input2" name="equipe"
-            placeholder="Choisir le jeu vous vouler jouer">
-        <datalist id="games">
-            <option value="Valorant"></option>
-            <option value="CS2"></option>
-            <option value="League of legends"></option>
-            <option value="Marvel rivals"></option>
-        </datalist>
+    <div class="flex2 spaceDown2">
+        <div class="width2 flex3 col grad2 ">
 
-    </div>
-    <label for="class" class="center down"> les roles de l'équipe</label>
-    <div class="flex center">
-        <label class="silver ">DPS
-            <input type="checkbox">
-        </label>
-        <label class="silver">Tank
-            <input type="checkbox">
-        </label>
-        <label class="silver">Healer
-            <input type="checkbox">
-        </label>
-        <label class="silver">Support
-            <input type="checkbox">
-        </label>
-    </div>
-    <label for="ranks" class="center down">Palyer ranks</label>
-    <div class="flex2 center">
-        <input type="text" list="list3" id="ranks" class="input2" name="ranks" placeholder="ouvert pour tout">
-        <datalist id="list3">
-            <option value="Diamond"></option>
-            <option value="platinium"></option>
-            <option value="Gold"></option>
-            <option value="Silver"></option>
-        </datalist>
-    </div>
-    <label for="desc" class="center down">Description</label>
-    <div class="flex2 center spaceDown">
-        <textarea type="text" id="desc" class="input2" name="desc" placeholder="Ecrir une description"></textarea>
-    </div>
-    <div class="flex2 center ">
-        <a href="#" target="_blank" class="width7 center centered connection"> Submit</a>
-    </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
 
+            <h3 class=" center white">Trouver une equipe</h3>
+            <p class="white maxw">Parcours des centaines des profiles de joueurs et dequipes qui cherchent des
+                coéquipeurs de ton niveau</p>
+        </div>
+        <div class="width2 flex3 col grad2">
 
-    <footer class="spaceUp flex2 z">
+            <div class="icon">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+
+            <h3 class=" center white">Publie ton profil</h3>
+            <p class="white maxw">Crée top profil de joueur avec tes stats,tes jeux favoris et ton niveu pour ètre
+                visible paar les équipes.
+            </p>
+        </div>
+        <div class="width2 flex3 col grad2 ">
+
+            <div class="icon">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+
+            <h3 class=" center white">Rejoins la communauté</h3>
+            <p class="white maxw">Connecte toi avec des miliers de joueurs passionnés et participe à des tournois
+                communautaires.</p>
+        </div>
+    </div>
+    <footer class="flex2 z">
         <div>
             <h3 class="centered white ">TeamUp<span class="blue">.gg</span> </h3>
             <p class="maxw4 silver">La platforme E-Sport qui connecte les joueurs et les équipes du monde entier. </p>
@@ -134,5 +119,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>

@@ -141,6 +141,8 @@ align-items: center;
 {
     display: flex;
    justify-content: space-evenly;
+    background:linear-gradient(#afb2c7cc,#050812(67, 67, 242)) !important;
+
 }
 .flex3
 {
@@ -148,12 +150,11 @@ align-items: center;
    justify-content: center;
 
 }
-.footer{
-    background:linear-gradient(#0A0E27CC,#050812(67, 67, 242));
-}
+
 .grad1{
     background: linear-gradient(white,#1bfefe);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -371,4 +372,9 @@ border-color: aqua;
     padding: 5px;
     border-width: 1.5px;
     border-radius: 15px;
+}
+.z{
+
+    background: linear-gradient(315deg,#0A0E27CC,#050812);
+
 }
