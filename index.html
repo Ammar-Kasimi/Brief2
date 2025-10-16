@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acceuil</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -14,15 +14,27 @@
 <body>
     <header>
         <h3 class="centered white" style="margin-left: 30px;">TeamUp<span style="color: #00d8d8;">.gg</span> </h3>
-        <h4 class="centered white">Acceuil</h5>
-            <h4 class="centered white">Comment ça marche</h5>
-                <h4 class="centered white">Joueurs</p>
-                    <h4 class="centered white">Comunauté</p>
-                        <a
-                            href="https://www.figma.com/design/F5B2CC9qzQIDfUvNK25Jl6/GenV-First-design-brief-project?node-id=1-2&t=AIgs9ixZDYy6hTfU-0">
-                            <button class="connection white buttonsize">
-                                <h4>Connexion</h4>
-                            </button></a>
+        <a href="index.html">
+            <h4 class="centered white">Acceuil</h4>
+        </a>
+        <a href="#">
+            <h4 class="centered white">Comment ça marche</h4>
+        </a>
+        <a href="Joueurs.html">
+            <h4 class="centered white">Joueurs</h4>
+        </a>
+        <a href="anonce.html">
+            <h4 class="centered white">Annonce</h4>
+        </a>
+        <a href="#">
+            <h4 class="centered white">Comunauté</h4>
+        </a>
+        <a
+            href="https://www.figma.com/design/F5B2CC9qzQIDfUvNK25Jl6/GenV-First-design-brief-project?node-id=1-2&t=AIgs9ixZDYy6hTfU-0">
+            <button class="connection white marl  buttonsize" style="margin-top: 9px;">
+                <h4>Connexion</h4>
+            </button>
+        </a>
 
     </header>
     <div>
@@ -49,7 +61,8 @@
             <div class="flex2">
                 <div class="col">
                     <label class="aqua" for="jeu">Jeu</label>
-                    <input list="options" type="text" ,name="jeu" id="jeu" placeholder="Selectioner un jeu">
+                    <input list="options" type="text" class="input" name="jeu" id="jeu"
+                        placeholder="Selectioner un jeu">
                     <datalist id="options">
                         <option value="Valorant">
                         <option value="CS2">
@@ -59,7 +72,8 @@
                 </div>
                 <div class="col">
                     <label class="aqua" for="niveueu">Niveu</label>
-                    <input list="ranks" type="text" ,name="niveau" id="niveau" placeholder="Tout les niveu">
+                    <input list="ranks" type="text" class="input" name="niveau" id="niveau"
+                        placeholder="Tout les niveu">
                     <datalist id="ranks">
                         <option value="Diamond">
                         <option value="platinium">
@@ -70,7 +84,7 @@
                 </div>
                 <div class="col">
                     <label class="aqua" for="role">Role</label>
-                    <input list="roles" type="text" ,name="role" id="role" placeholder="Tout les roles">
+                    <input list="roles" type="text" class="input" name="role" id="role" placeholder="Tout les roles">
                     <datalist id="roles">
                         <option value="Dps">
                         <option value="Tank">
@@ -127,85 +141,11 @@
 
 
 
-    <h2 class="center white fontsize"> Joueurs disponibles</h2>
-    <div class="flexs spaceDown center">
-        <div class="line "></div>
-    </div>
+    
 
-    </div>
-    <div class="flex2 spaceDown">
-        <div class="width3  col grad2 ">
-            <img src="images/pic1.jpg" alt="profile picture">
-            <h3 class="white">Anwar77</h3>
-            <h4 class="green mar">Valorant</h4>
-            <div class="flex2 gap blue">
-                <h4>DPS</h4>
-                <h4>Bronze II</h4>
-            </div>
-            <p class="maxw2 white ">Main Clove/Omen,cherche équipe competitive pour ranked push </p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
+   
+    
 
-
-        </div>
-        <div class="width3  col grad2 ">
-            <img src="images/pic6.jpg" alt="profile picture">
-            <h3 class="white">Hollow Knight</h3>
-            <h4 class="red mar ">Rivals</h4>
-            <div class="flex2 gap blue">
-                <h4>DPS</h4>
-                <h4>Diamond III</h4>
-            </div>
-            <p class="maxw2 white">Joueur expirimante,disponible pour scrims at tournois</p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
-
-        </div>
-        <div class="width3  col grad2 ">
-            <img src="images/pic7.jpg" alt="profile picture">
-            <h3 class="white">Kakashi</h3>
-            <h4 class="blue2 mar">League of Legends</h4>
-            <div class="flex2 gap blue">
-                <h4>Support</h4>
-                <h4>Diamond V</h4>
-            </div>
-            <p class="maxw2 white">AWP main, 3000h de jeu, cherche équipe sérieuse</p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
-        </div>
-    </div>
-    <div class="flex2">
-        <div class="width3  col grad2 ">
-            <img src="images/pic2.jpg" alt="profile picture">
-            <h3 class="white">DarkBlade</h3>
-            <h4 class="red mar ">Rivals</h4>
-            <div class="flex2 gap blue">
-                <h4>Tank</h4>
-                <h4>Gold III</h4>
-            </div>
-            <p class="maxw2 white">Main Omen/Viper, bon game sense et communication</p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
-        </div>
-        <div class="width3  col grad2 ">
-            <img src="images/pic4.jpg" alt="profile picture">
-            <h3 class="white">Anonymus</h3>
-            <h4 class="yellow mar">CS2</h4>
-            <div class="flex2 gap blue">
-                <h4>Support</h4>
-                <h4>Silver I</h4>
-
-            </div>
-            <p class="maxw2 white">Jungle main,macro game fort,dispo tous les soirs</p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
-        </div>
-        <div class="width3  col grad2 ">
-            <img src="images/pic5.jpg" alt="profile picture">
-            <h3 class="white">RayanXD</h3>
-            <h4 class="yellow mar">CS2</h4>
-            <div class="flex2 gap blue">
-                <h4>Healer</h4>
-                <h4>Gold II</h4>
-            </div>
-            <p class="maxw2 white">Agressif,bon aim,cherche pour FACEIT</p>
-            <a href="#" target="_blank" class="connection width6 cen"><strong> Voir le profil</strong></a>
-        </div>
 
     </div>
     <h2 class="center white fontsize"> Une communauté en pleine croissance</h2>

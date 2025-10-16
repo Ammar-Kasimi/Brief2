@@ -129,7 +129,7 @@ align-items: center;
 
 .flex{
     display: flex;
-    gap: 30;
+    gap: 30px;
 }
 .flexs{
     width: auto;
@@ -147,6 +147,9 @@ align-items: center;
     display: flex;
    justify-content: center;
 
+}
+.footer{
+    background:linear-gradient(#0A0E27CC,#050812(67, 67, 242));
 }
 .grad1{
     background: linear-gradient(white,#1bfefe);
@@ -182,9 +185,15 @@ header{
     gap:100px;
 }
 
-input{
+.input{
     width: 180px;
     height: 26px;
+}
+.input2{
+    width: 700px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
 }
 img{
 border-radius: 50%;
@@ -236,12 +245,16 @@ label{
     margin-top: 0;
     margin-bottom: 0;
 }
+.marl{
+    margin-left: 0;
+}
+ /* background-clip: text;   */
 .num{
     font-size: 45px;
     font-weight: bold;
   background: linear-gradient(135deg ,#00FFFF,#FF00FF);
   -webkit-background-clip: text;  
-  background-clip: text;          
+         
   -webkit-text-fill-color: transparent;
 }
 .pic{
@@ -265,7 +278,10 @@ label{
     margin-bottom: 40px;
 }
 .spaceDown2{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+.down{
+    margin-bottom: 10px;
 }
 .spaceLeft{
     margin-left: 30px;
@@ -276,7 +292,9 @@ label{
 .silver{
     color: silver;
 }
-
+textarea{
+    resize: none;
+}
 .width{
 width: 180px;
 height: 25px;
@@ -331,6 +349,11 @@ border-color: aqua;
     border-width: 0.1px;
     border-style: inherit ;
     color: rgb(32, 32, 37);
+}
+.width7{
+    height: 30px;
+    width: 170px;
+    border: none;
 }
 
 .white  
