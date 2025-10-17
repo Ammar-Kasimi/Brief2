@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background: linear-gradient(315deg,#1a1f3a,#0f1428);
+    background: linear-gradient(45deg,#0b1861,#370845);
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -57,7 +57,7 @@ body{
 
 }
 .backcolor2{
-    background: linear-gradient(45deg,#575b6d,#091336);
+    background: linear-gradient(45deg,#596bce99,#091336);
     height: 250px;
     width: 85%;
     margin-top: 250px;
@@ -152,7 +152,7 @@ align-items: center;
 }
 
 .grad1{
-    background: linear-gradient(white,#1bfefe);
+    background: linear-gradient(white,#1b98fe);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -160,6 +160,11 @@ align-items: center;
 
 .grad2{
     background:linear-gradient(135deg ,#596bce99 ,#0F142899 );
+}
+.grad3{
+    background: linear-gradient(#0A0E27,#1A1F3A);
+    background: radial-gradient(#FF00FF,15%,#FF00FF,0);
+    background: radial-gradient(#00FFFF,15%,#00FFFF,0%);
 }
 .green{
     background-color: rgba(0, 128, 0, 0.169);
@@ -258,7 +263,7 @@ label{
          
   -webkit-text-fill-color: transparent;
 }
-.pic{
+.pad{padding-top: 20px;
     
 }
 
